@@ -38,7 +38,6 @@ string[] SelectShort(string[] strings, int maxChar)
 
     for (int i = 0; i < strings.GetLength(0); i++)
     {
-        Console.WriteLine(strings[i].Length);
         if (strings[i].Length <= maxChar)
         {
             strings2[countCurrent] = strings[i];
@@ -67,5 +66,3 @@ Console.WriteLine($"Оставляю короткие слова (< {maxChar})."
 string[] myStrings2 = SelectShort(myStrings, maxChar);
 PrintString(myStrings2);
 
-
-//Print2DArray(strings1[1, template]);
