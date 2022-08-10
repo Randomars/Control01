@@ -15,8 +15,14 @@
     * Создана папка на компьютере
     * Подключена система контроля версий (GIT INIT)
     * Репозиторий направлен на GitHab.
+        * git remote add origin https://github.com/Randomars/Control01.git
+        * git branch -M main
+        * git push -u origin main
+
 
 2. Блок-схема алгоритма.
+
+
 ![Изображение блок-схемы](shema01.JPG)
 
 3. Создание описания решения.
@@ -36,6 +42,4 @@
     * git add README.md  // Добавление файла для отслеживания.
     * git commit -m "Project created."  // Фиксирование точки.
     * git status    // Контроль изменений.
-    * git remote add origin https://github.com/Randomars/Control01.git
-    * git branch -M main
-    * git push -u origin main
+    
